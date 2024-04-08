@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{ 
+    background-image: url(13610.jpg) ;
+color: rgb(7, 6, 6);
+
+font-size: 16px;
+font-weight: normal;
+font-family:'Roboto', sans-serif;
+
+/*font: normal 16px 'Roboto', sans-serif;*/
+
+}
+
+a { color: rgb(254, 18, 18); text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:active {color: rgb(253, 255, 255);}
+a:visited {color: hsl(176, 100%, 50%)}
+
+.avatar {
+width: 200px;  
+border-radius: 20px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 025 );}
+
+.info p {color: rgb(20, 9, 223);
+margin:0%;
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+text-transform: capitalize;
+/*letter-spacing: 12px;
+word-spacing: 14;*/
+}
+
+/*boxmodel*/
+
+.container {
+ max-width: 800px ;  
+ margin:auto;
+ padding-top: 30px;
+}
+
+/*.social {
+background: red;
+color: blue;
+/*padding: 15px;
+padding: 15px 40px;
+padding: 15px 25px 20px 30px;
+
+padding-right: 15px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+
+border: 5px solid green;
+border-bottom-style: dotted;
+border-top-width: 14px;
+border-right-color: blueviolet;
+margin: 10px;
+} */
+
+
+/*.box-model >div {
+float: left;
+background: black;
+height: 200px;
+width: 25%;
+border: 4px solid rebeccapurple;
+box-sizing: border-box;
+}*/
+
+.bg-yellow { background: #a695d8;}
+
+.bg-red { background: #6f5987;}
+
+.bg-green { background:  rgb(217, 126, 106);}
+
+.card {
+     padding: 15px 20px;
+      margin-bottom: 25px;
+      border-radius: 20px;
+}
+.info-text {
+   margin-left: 40px;
+   max-width: 100%;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info {
+margin-bottom: 20px;
+display: flex;}
+
+
+@media (max-width: 700px) {.info { display: block; text-align: center;}}
+
+
+.card h2 { margin-bottom: 15px;}
+
+.list { 
+ padding: 0 20px;  
+ /*list-style: none; */
+
+}
+.list li {
+    color:rgb(6, 2, 3);
+    margin-bottom: 10px;
+    border-bottom: 2px solid goldenrod;
+}
+
+.table1 {
+    border-radius: 20px;
+   
+width: 100%;
+}
+.table1 td {
+padding-bottom: 15px;
+}
+.table1 td:nth-child(1),
+.table1 td:nth-child(2) {
+    color: rgb(255, 117, 4);}
+
+/*.table1 tr:nth-child(odd) {background: red;}*/
+
+.link-list {list-style: none;
+padding: 0 ;}
+.link-list li { margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+}
+.contact h2 {
+text-align: center;}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(234, 102, 37);}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+background-color: transparent;
+border-bottom: 3px solid rgb(255, 255, 255);
+/*border-top: 1px solid rgb(175, 171, 171);*/
+color: hsl(0, 29%, 97%);
+padding: 15px o 10;
+outline: none;
+font-family: inherit;
+border-radius: 20px;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row>.form-group {
+    width: 50%;
+}
+.row > .form-group:first-child {
+    margin-right: 20%;
+}
+
+.knopka {
+    margin-top: 30px;
+    background: rgb(217, 126, 106);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #362a44;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.knopka:hover {
+    opacity: 0.9;
+}
+
+/*position*/
+
+.position {
+position: relative;
+border: 4px solid #000;
+margin-top: 50px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    border: 4px solid #561f6c ;
+    right: 50px;
+    bottom: 50%;
+   
+    width: 50px;
+    height: 50px;
+    background: rgb(228, 137, 62);
+    position: fixed;
+    border-radius: 50%;
+}
+
+input{
+    color:aliceblue
+}
